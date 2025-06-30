@@ -18,7 +18,7 @@ public class BackendSeverstalApplication {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**")
-						.allowedOrigins("http://localhost:3000") // Разрешаем запросы с фронта
+						.allowedOrigins("http://localhost:3000")
 						.allowedMethods("GET", "POST", "PUT", "DELETE");
 			}
 		};
